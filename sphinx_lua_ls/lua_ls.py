@@ -192,7 +192,9 @@ class LuaLs:
                 _logger.error("%s", err, type="lua-ls")
                 raise err from None
 
-            return json.loads(pathlib.Path(output_path, "doc.json").read_text())
+            return json.loads(
+                pathlib.Path(output_path, "doc.json").read_text(encoding="utf-8")
+            )
 
 
 class ProgressReporter:

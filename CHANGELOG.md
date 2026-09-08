@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [3.12.1] - 2026-09-08
+
+- Fixed encoding while reading doc.json ([#100] by [@vlazed]).
+
 ## [3.12.0] - 2026-05-12
 
 - Bumped dependencies.
@@ -271,6 +275,7 @@ Initial release.
 
 ## [0.0.1] - 2025-03-09
 
+[#100]: https://github.com/sphinx-contrib/lua-ls/pull/100
 [#18]: https://github.com/sphinx-contrib/lua-ls/pull/18
 [#19]: https://github.com/sphinx-contrib/lua-ls/pull/19
 [#3]: https://github.com/sphinx-contrib/lua-ls/issues/3
@@ -290,6 +295,7 @@ Initial release.
 [3.10.1]: https://github.com/sphinx-contrib/lua-ls/compare/v3.10.0...v3.10.1
 [3.11.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.10.1...v3.11.0
 [3.12.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.11.0...v3.12.0
+[3.12.1]: https://github.com/sphinx-contrib/lua-ls/compare/v3.12.0...v3.12.1
 [3.2.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.1.0...v3.2.0
 [3.3.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.2.0...v3.3.0
 [3.4.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.3.0...v3.4.0
@@ -303,6 +309,7 @@ Initial release.
 [3.9.0]: https://github.com/sphinx-contrib/lua-ls/compare/v3.8.1...v3.9.0
 [@bkoropoff]: https://github.com/bkoropoff
 [@pieterlexis]: https://github.com/pieterlexis
+[@vlazed]: https://github.com/vlazed
 [emmylua]: https://github.com/EmmyLuaLs/emmylua-analyzer-rust/
 [luals#3301]: https://github.com/LuaLS/lua-language-server/issues/3301
-[unreleased]: https://github.com/sphinx-contrib/lua-ls/compare/v3.12.0...HEAD
+[unreleased]: https://github.com/sphinx-contrib/lua-ls/compare/v3.12.1...HEAD
